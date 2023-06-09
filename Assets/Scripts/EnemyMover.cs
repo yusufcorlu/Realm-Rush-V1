@@ -10,7 +10,6 @@ public class EnemyMover : MonoBehaviour
 
     Enemy enemy;
 
-    // Start is called before the first frame update
     void OnEnable()
     {
         FindPath();
@@ -21,12 +20,6 @@ public class EnemyMover : MonoBehaviour
     void Start() 
     {
         enemy = GetComponent<Enemy>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void FindPath()

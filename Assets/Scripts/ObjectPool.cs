@@ -14,16 +14,10 @@ public class ObjectPool : MonoBehaviour
     {
         PopulatePool();
     }
-    // Start is called before the first frame update
+
     void Start()
     {
         StartCoroutine(SpawnEnemy());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void PopulatePool()

@@ -12,7 +12,6 @@ public class EnemyHealth : MonoBehaviour
 
     Enemy enemy;
 
-    // Start is called before the first frame update
     void OnEnable()
     {
         currentHitPoints = maxHitPoints;
@@ -21,12 +20,6 @@ public class EnemyHealth : MonoBehaviour
     void Start()
     {
         enemy = GetComponent<Enemy>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void OnParticleCollision(GameObject other) 

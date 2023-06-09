@@ -11,17 +11,6 @@ public class Bank : MonoBehaviour
     public int CurrentBalance { get { return currentBalance; } }
 
     [SerializeField] TextMeshProUGUI displayBalance;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     void Awake()
     {
